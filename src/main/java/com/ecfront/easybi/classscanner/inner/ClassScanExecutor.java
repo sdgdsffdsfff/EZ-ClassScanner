@@ -27,7 +27,7 @@ public class ClassScanExecutor {
     }
 
     public Set<Class<?>> execute() throws IOException, ClassNotFoundException {
-        results = new HashSet<>();
+        results = new HashSet<Class<?>>();
         String packageDir = basePackage.replace('.', '/');
         Enumeration<URL> urls = Thread.currentThread().getContextClassLoader()
                 .getResources(packageDir);
