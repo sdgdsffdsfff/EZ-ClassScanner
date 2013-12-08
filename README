@@ -1,14 +1,3 @@
 ## Scan and find Class by annotation or name.
 
 
-### How to use
-
-Scan the specified class annotation in specified package:
-`Set<Class<?>> resultInFile = ClassScanner.scan("com.ecfront.easybi.classscanner.test", Deprecated.class)`
-
-Scan the specified class name in specified package:
-`Set<Class<?>> resultInFile = ClassScanner.scan("org.junit", "Before\\w*")`
-
-Scan the specified class annotation and name in specified package:
-`Set<Class<?>> resultInFile = ClassScanner.scan("org.junit", "Before\\w*")`
-
