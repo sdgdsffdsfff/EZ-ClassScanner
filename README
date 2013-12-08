@@ -3,7 +3,7 @@
 ### How to use
 
 Scan the specified class annotation in specified package:
-`Set<Class<?>> resultInFile = ClassScanner.scan("com.ecfront.easybi.classscanner.test", Deprecated.class);`
+`Set<Class<?>> resultInFile = ClassScanner.scan("com.ecfront.easybi.classscanner.test", Deprecated.class)`
 
 Scan the specified class name in specified package:
 `Set<Class<?>> resultInFile = ClassScanner.scan("org.junit", "Before\\w*")`
