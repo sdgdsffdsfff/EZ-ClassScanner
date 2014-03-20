@@ -15,7 +15,7 @@ Scan the specified class annotation and name in specified package:
 The Project uses a [Maven][]-based build system.
 
 ### Check out sources
-`git clone https://github.com/gudaoxuri/EasyBI.git`
+`git clone https://github.com/gudaoxuri/EZ-ClassScanner.git`
 
 ### License
 
